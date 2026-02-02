@@ -1,0 +1,44 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+Obj/
+UserSettings/Logs/
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# ML-Agents (可选)
+results/**/summaries/
+results/**/events.out.tfevents.*
+
+# --- 额外补充 ---
+# 忽略所有生成的工程文件
+*.csproj
+*.sln
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.polycounts
+
+# 忽略 Asset 导入产生的元数据（如果不是协作开发，这些文件有时会很大且冲突频繁）
+# 但通常协作开发建议保留 .meta，如果你是纯个人项目且经常换环境，可以酌情考虑
+# /[Aa]ssets/AssetStoreTools*
+
+# 针对 ML-Agents 的训练结果 (保留模型，忽略中间过程)
+results/*/run_id/
+!results/**/*.onnx

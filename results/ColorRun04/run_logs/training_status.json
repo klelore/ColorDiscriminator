@@ -1,0 +1,38 @@
+{
+    "ColorFinder": {
+        "checkpoints": [
+            {
+                "steps": 499955,
+                "file_path": "results\\ColorRun04\\ColorFinder\\ColorFinder-499955.onnx",
+                "reward": -0.6000000275671482,
+                "creation_time": 1770004028.4889653,
+                "auxillary_file_paths": [
+                    "results\\ColorRun04\\ColorFinder\\ColorFinder-499955.pt"
+                ]
+            },
+            {
+                "steps": 504141,
+                "file_path": "results\\ColorRun04\\ColorFinder\\ColorFinder-504141.onnx",
+                "reward": null,
+                "creation_time": 1770004040.346155,
+                "auxillary_file_paths": [
+                    "results\\ColorRun04\\ColorFinder\\ColorFinder-504141.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 504141,
+            "file_path": "results\\ColorRun04\\ColorFinder.onnx",
+            "reward": null,
+            "creation_time": 1770004040.346155,
+            "auxillary_file_paths": [
+                "results\\ColorRun04\\ColorFinder\\ColorFinder-504141.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.7.1+cu118"
+    }
+}

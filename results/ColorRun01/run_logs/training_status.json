@@ -1,0 +1,29 @@
+{
+    "ColorFinder": {
+        "checkpoints": [
+            {
+                "steps": 154003,
+                "file_path": "results\\ColorRun01\\ColorFinder\\ColorFinder-154003.onnx",
+                "reward": null,
+                "creation_time": 1769951062.4433389,
+                "auxillary_file_paths": [
+                    "results\\ColorRun01\\ColorFinder\\ColorFinder-154003.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 154003,
+            "file_path": "results\\ColorRun01\\ColorFinder.onnx",
+            "reward": null,
+            "creation_time": 1769951062.4433389,
+            "auxillary_file_paths": [
+                "results\\ColorRun01\\ColorFinder\\ColorFinder-154003.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.7.1+cu118"
+    }
+}

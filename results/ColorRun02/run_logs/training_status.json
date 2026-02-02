@@ -1,0 +1,77 @@
+{
+    "ColorFinder": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results\\ColorRun02\\ColorFinder\\ColorFinder-499962.onnx",
+                "reward": null,
+                "creation_time": 1769953893.752006,
+                "auxillary_file_paths": [
+                    "results\\ColorRun02\\ColorFinder\\ColorFinder-499962.pt"
+                ]
+            },
+            {
+                "steps": 500026,
+                "file_path": "results\\ColorRun02\\ColorFinder\\ColorFinder-500026.onnx",
+                "reward": null,
+                "creation_time": 1769953893.8495512,
+                "auxillary_file_paths": [
+                    "results\\ColorRun02\\ColorFinder\\ColorFinder-500026.pt"
+                ]
+<<<<<<< HEAD
+            },
+            {
+                "steps": 499994,
+                "file_path": "results\\ColorRun02\\ColorFinder\\ColorFinder-499994.onnx",
+                "reward": -0.3358333210150401,
+                "creation_time": 1769999698.8533645,
+                "auxillary_file_paths": [
+                    "results\\ColorRun02\\ColorFinder\\ColorFinder-499994.pt"
+                ]
+            },
+            {
+                "steps": 999969,
+                "file_path": "results\\ColorRun02\\ColorFinder\\ColorFinder-999969.onnx",
+                "reward": null,
+                "creation_time": 1770001312.6532571,
+                "auxillary_file_paths": [
+                    "results\\ColorRun02\\ColorFinder\\ColorFinder-999969.pt"
+                ]
+            },
+            {
+                "steps": 1066728,
+                "file_path": "results\\ColorRun02\\ColorFinder\\ColorFinder-1066728.onnx",
+                "reward": -0.710750020109117,
+                "creation_time": 1770001447.1434517,
+                "auxillary_file_paths": [
+                    "results\\ColorRun02\\ColorFinder\\ColorFinder-1066728.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1066728,
+            "file_path": "results\\ColorRun02\\ColorFinder.onnx",
+            "reward": -0.710750020109117,
+            "creation_time": 1770001447.1434517,
+            "auxillary_file_paths": [
+                "results\\ColorRun02\\ColorFinder\\ColorFinder-1066728.pt"
+=======
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500026,
+            "file_path": "results\\ColorRun02\\ColorFinder.onnx",
+            "reward": null,
+            "creation_time": 1769953893.8495512,
+            "auxillary_file_paths": [
+                "results\\ColorRun02\\ColorFinder\\ColorFinder-500026.pt"
+>>>>>>> d5c7d253e28bd1cccc79717b14cf5600fcaa5c73
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.7.1+cu118"
+    }
+}
