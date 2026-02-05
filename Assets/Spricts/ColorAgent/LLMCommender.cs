@@ -10,7 +10,7 @@ public class LLMCommander : MonoBehaviour
     // 如果是 DeepSeek: https://api.deepseek.com/v1/chat/completions
     // 如果是 本地Ollama: http://localhost:11434/v1/chat/completions
     public string apiUrl = "https://api.deepseek.com/v1/chat/completions";
-    public string apiKey = "sk-19f98991b4f6460ca9cd54f16c850672"; // 填你的 Key
+    public string apiKey = ""; // 填你的 Key
     public string modelName = "deepseek-chat";    // 模型名字
 
     [Header("游戏引用")]
